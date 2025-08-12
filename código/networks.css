@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,700;1,700&display=swap');
+
+:root {
+    font-family: 'Titillium Web', sans-serif;
+}
+.titulo{
+    margin-bottom: 1px;
+    margin-right: 117px;
+    align-items: center;
+    text-indent: 100px;
+    color: rgb(211, 155, 155);
+    border-top: #000000;
+}
+*{
+        margin: 0;
+        padding: 0;
+}
+
+.cabeçalho {
+width: 100%;
+}
+
+.menu {
+    background-color: #000000;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 30px 10px;
+}
+
+.main {
+    padding: 10px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: #131212;
+    height: 2100px;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #000000;
+    text-align: center;
+}
+
+.filmes {
+    position: relative;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 30px;
+    background-size: contain;
+    border: 2px solid darkgray;
+    color: #000;
+    text-shadow: 6px 6px 0 #fff;
+}
+
+.filmes:hover{
+    position: relative;
+    top:-2px;box-shadow:0 46px 46px #666
+}
+
+.family{
+color: red;
+    border-top: #000000;
+}
+.family:hover{
+    position: relative;
+    top:-2px;box-shadow:0 46px 46px #666
+}
